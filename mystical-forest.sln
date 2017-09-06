@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mystical-forest", "mystical-forest\mystical-forest.csproj", "{550E6295-4BAB-4D8F-BA43-E6E710607537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMysticalForest", "UnitTestMysticalForest\UnitTestMysticalForest.csproj", "{7129E6A7-A580-4012-88AE-608B330F8C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{550E6295-4BAB-4D8F-BA43-E6E710607537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550E6295-4BAB-4D8F-BA43-E6E710607537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550E6295-4BAB-4D8F-BA43-E6E710607537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550E6295-4BAB-4D8F-BA43-E6E710607537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7129E6A7-A580-4012-88AE-608B330F8C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7129E6A7-A580-4012-88AE-608B330F8C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7129E6A7-A580-4012-88AE-608B330F8C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7129E6A7-A580-4012-88AE-608B330F8C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
