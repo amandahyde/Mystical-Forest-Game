@@ -28,10 +28,17 @@ namespace mystical_forest
             //methods to load game sounds and objects.
             LoadSound();
             LoadGameObjects();
+
+
+
+
+
+
         }
 
-        #region LoadStuff
-        private static void LoadSound()
+
+            #region LoadStuff
+            private static void LoadSound()
         {
             SoundPlayer audio = new SoundPlayer(global::mystical_forest.Properties.Resources
                 .Magic_Fantasy_Music___Tales_of_the_Night);
@@ -295,8 +302,8 @@ namespace mystical_forest
         #endregion
 
 
-        //PLAY GAME - Button   drtdryudrdryu
-        private void btnPlayNow_Click(object sender, EventArgs e)
+        //PLAY GAME - Button  
+        public void btnPlayNow_Click(object sender, EventArgs e)
         {
         
             picInfo.Visible = false;
@@ -308,8 +315,10 @@ namespace mystical_forest
 
 
         }
+ 
+     
 
-        public void playGame()
+            public void playGame()
         {
             //generate a random number for the poison shroom
             calcDoom.Poison = calcDoom.RandomNumber();
